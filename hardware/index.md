@@ -1,13 +1,8 @@
 ---
 layout: default
 title: Hardware Projects
-nav_order: 1
+nav_order: 1r
 has_children: true
 ---
 
 # Hardware Projects
-
-- usb-sata
-- usb-wifi
-- blockpage
-- etc.
