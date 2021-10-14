@@ -1,7 +1,7 @@
 ---
 layout: default
 title: USB SATA Stick
-parent: Hardware Projects
+parent: Projects
 ---
 
 # USB SATA Stick

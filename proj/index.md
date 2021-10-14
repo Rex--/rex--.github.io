@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hardware Projects
+title: Projects
 nav_order: 1r
 has_children: true
 ---
