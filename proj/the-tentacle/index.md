@@ -1,10 +1,11 @@
 ---
 layout: default
-title: The tentacle
+title: The Tentacle
 parent: Projects
+has_children: true
 ---
 
-# the tenacle
+# The Tentacle
 ##### Keypad Controller for Octoprint
 
 ### Features:
