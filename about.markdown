@@ -3,5 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-twitter: @rexploits
+### Contact
+twitter: {{ site.twitter }}
+email: {{ site.email }}
