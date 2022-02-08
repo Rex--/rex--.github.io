@@ -11,6 +11,6 @@ The PowerP/C LCD
 
 Segments (theoretically) available on the PowerPic ( WIP ) :
 
-![segment-map](docs/lcd.png)
+![segment-map](docs/lcd-segment-map.png)
 
 ![segment-list](docs/lcd-segment-chart.svg)
