@@ -11,6 +11,8 @@ has_children: true
 
 A replacement board for the Casio CA-53W based on the PIC16.
 
+Check out the project files in the [git repo](https://github.com/Rex--/powerpic)
+
 ## Schematic
 [powerpic-sch.pdf](docs/powerpic-sch.pdf)
 
