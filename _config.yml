@@ -14,9 +14,6 @@
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
-plugins:
-  - jekyll-feed
-
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -29,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Rex's Exploits
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+source: rexploits/
 
 # Contact Info
 email: "0xff@rexploits.com"
