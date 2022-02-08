@@ -3,7 +3,6 @@ layout: default
 title: LCD
 parent: PowerP/C
 grand_parent: Projects
-permalink: /powerpic/lcd
 ---
 
 The PowerP/C LCD
@@ -12,6 +11,6 @@ The PowerP/C LCD
 
 Segments (theoretically) available on the PowerPic ( WIP ) :
 
-![segment-map]("/rexploits/powerpic/docs/lcd.spng")
+![segment-map](docs/lcd.png)
 
-![segment-list](/rexploits/powerpic/docs/lcd-segment-chart.svg)
+![segment-list](docs/lcd-segment-chart.svg)

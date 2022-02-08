@@ -14,4 +14,4 @@ permalink: /the-tentacle
  - UART Communication to Printer
 
 
-[the tentacle v0.1](v0-1.md)
+[the tentacle v0.1](v0_1.md)
