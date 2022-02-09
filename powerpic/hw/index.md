@@ -4,6 +4,7 @@ title: Hardware
 parent: PowerP/C
 grand_parent: Projects
 permalink: /powerpic/hw
+has_children: true
 ---
 
 # PowerP/C Hardware
