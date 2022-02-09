@@ -1,8 +1,7 @@
 ---
 layout: default
 title: LCD
-parent: PowerP/C
-grand_parent: Projects
+parent: Hardware
 ---
 
 The PowerP/C LCD

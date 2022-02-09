@@ -3,7 +3,7 @@ layout: default
 title: Firmware
 parent: PowerP/C
 grand_parent: Projects
-permalink: firmware
+permalink: /powerpic/fw
 ---
 
 # PowerP/C Firmware
