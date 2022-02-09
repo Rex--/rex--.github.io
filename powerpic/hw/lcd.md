@@ -3,6 +3,7 @@ layout: default
 title: LCD
 parent: Hardware
 grand_parent: PowerP/C
+grand_parent: Projects
 ---
 
 The PowerP/C LCD
