@@ -1,9 +1,8 @@
 ---
 layout: default
 title: PowerP/C
-parent: Projects
 permalink: /powerpic
-nav_order: 3
+nav_order: 4
 has_children: true
 ---
 
@@ -14,12 +13,11 @@ A replacement board for the Casio CA-53W based on the PIC16.
 Check out the project files in the [git repo](https://github.com/Rex--/powerpic)
 
 ## Schematic
-[powerpic-sch.pdf](docs/powerpic-sch.pdf)
+[powerpic-sch.pdf](/powerpic/docs/powerpic-sch.pdf)
 
 ## PCB
-![board-front](docs/board-front-jlc.png)
-![board-back](docs/board-back-jlc.png)
+![board-front](/powerpic/docs/board-front-jlc.png)
 
 ## Pin List
 
-![pin-list](docs/pinout.svg)
+![pin-list](/powerpic/docs/pinout.svg)

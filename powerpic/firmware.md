@@ -2,7 +2,6 @@
 layout: default
 title: Firmware
 parent: PowerP/C
-grand_parent: Projects
 permalink: /powerpic/fw
 ---
 

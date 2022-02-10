@@ -2,7 +2,6 @@
 layout: default
 title: Software
 parent: PowerP/C
-grand_parent: Projects
 permalink: /powerpic/sw
 ---
 
