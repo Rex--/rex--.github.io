@@ -113,26 +113,10 @@ nav_exclude: true
         --idata-loc           
         --no-optsdcc-in-asm   Do not emit .optsdcc in asm
 
-## Special Options for PIC16 Port
-        --pstack-model=       use stack model 'small' (default) or 'large'
-    -y  --extended            enable Extended Instruction Set/Literal Offset Addressing mode
-        --pno-banksel         do not generate BANKSEL assembler directives
-        --obanksel=           set banksel optimization level (default=0 no)
-        --denable-peeps       explicit enable of peepholes
-        --no-optimize-goto    do NOT use (conditional) BRA instead of GOTO
-        --optimize-cmp        try to optimize some compares
-        --optimize-df         thoroughly analyze data flow (memory and time intensive!)
-        --asm=                Use alternative assembler
-        --mplab-comp          enable compatibility mode for MPLAB utilities (MPASM/MPLINK)
-        --link=               Use alternative linker
-        --preplace-udata-with=  Place udata variables at another section: udata_acs, udata_ovr, udata_shr
-        --ivt-loc=            Set address of interrupt vector table.
-        --nodefaultlibs       do not link default libraries when linking
-        --use-crt=            use <crt-o> run-time initialization module
-        --no-crt              do not link any default run-time initialization module
+##  Special options for the pic14 port:
         --debug-xtra          show more debug info in assembly output
-        --debug-ralloc        dump register allocator debug file *.d
-        --pcode-verbose       dump pcode related info
-        --calltree            dump call tree in .calltree file
-        --gstack              trace stack pointer push/pop to overflow
+        --no-pcode-opt        disable (slightly faulty) optimization on pCode
+        --stack-size          sets the size if the argument passing stack (default: 16, minimum: 4)
+        --no-extended-instructions  forbid use of the extended instruction set (e.g., ADDFSR)
         --no-warn-non-free    suppress warning on absent --use-non-free option
+
