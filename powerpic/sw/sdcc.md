@@ -1,4 +1,10 @@
-
+---
+layout: default
+title: SDCC
+parent: Software
+grand_parent: PowerP/C
+nav_exclude: true
+---
 
 # Usage : sdcc [options] filename
 
