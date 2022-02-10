@@ -9,7 +9,7 @@ permalink: /powerpic/sw
 
 ## Compilation
 
-Currently, Microchip's `xc8-cc` compiler is used to compile and link the [firmware](/powerpic/fw) for the powerpic. A simple Makefile is provided in the [pic-resources](https://github.org/Rex--/pic-resources) repo.
+Currently, Microchip's `xc8-cc` compiler is used to compile and link the [firmware](/powerpic/fw) for the powerpic. A simple Makefile is provided in the [pic-resources](https://github.com/Rex--/pic-resources) repo.
 
 Development is done on Arch btw, using `microchip-mplabxc8-bin` from the AUR.
 
