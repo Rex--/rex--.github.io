@@ -14,12 +14,12 @@ Pins RC2 and RC3 are broken out to provide a debug serial interface during devel
 ### ICSP
 The three needed ICSP pins have been broken out to provide a programming interface to the pic. Both DAT and CLK re-use LCD segment pins, so it will have to be disconnected before programming.
 
-<img src="/powerpic/docs/programming-pinout.svg" width=500em>
+<img src="/powerpic/docs/pogo-pinout.svg" width=500em>
 
 1. **MCLR** - RG5
-1. **CLK** - RB6
-1. **DAT** - RB7
-1. **RX** - RC2
-1. **TX** - RC3
-1. **GND** (Middle Pad)
-1. **VIN** (Top Pad)
+2. **CLK** - RB6
+3. **DAT** - RB7
+4. **RX** - RC2
+5. **TX** - RC3
+6. **GND**
+7. **VIN**
