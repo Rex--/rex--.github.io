@@ -4,8 +4,8 @@
 <svg
    id="svg5"
    version="1.1"
-   viewBox="0 0 50.448021 53.894917"
-   height="53.894917mm"
+   viewBox="0 0 50.448021 60.589508"
+   height="60.589508mm"
    width="50.448021mm"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
@@ -13,7 +13,7 @@
      id="defs2" />
   <g
      id="layer1"
-     transform="translate(-50.2,-62.194342)">
+     transform="translate(-50.2,-55.499753)">
     <path
        style="fill:none;stroke:#5d5d5d;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 0.529166;stroke-dashoffset:0;stroke-opacity:0.698358"
        d="M 75.975619,98.488258 V 70.680611"
@@ -390,27 +390,37 @@
        id="path70057" />
     <text
        xml:space="preserve"
-       style="font-size:1.41111px;line-height:1.25;font-family:sans-serif;text-align:end;text-anchor:end;stroke-width:0.264583"
-       x="100.25255"
-       y="113.80779"
-       id="text74406"><tspan
-         id="tspan74404"
-         style="font-size:1.41111px;text-align:end;text-anchor:end;stroke-width:0.264583"
-         x="100.25255"
-         y="113.80779">2022-02-12</tspan><tspan
-         style="font-size:1.41111px;text-align:end;text-anchor:end;stroke-width:0.264583"
-         x="100.25255"
-         y="115.57167"
-         id="tspan74408">Drawn by: Rex McKinnon</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="59.096806"
-       y="65.160751"
+       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="75.951439"
+       y="62.588203"
        id="text83458"><tspan
          id="tspan83456"
-         style="stroke-width:0.264583"
-         x="59.096806"
-         y="65.160751">PowerPIC Test Point Layout</tspan></text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="75.951439"
+         y="62.588203">PowerPIC Test Point Layout</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+       x="70.601364"
+       y="96.49247"
+       id="text90378"><tspan
+         id="tspan90376"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+         x="70.601364"
+         y="96.49247">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+       x="80.556908"
+       y="96.484001"
+       id="text98174-2"><tspan
+         id="tspan98172-26"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+         x="80.556908"
+         y="96.484001">5</tspan><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+         x="80.556908"
+         y="98.247887"
+         id="tspan99998-10" /></text>
   </g>
 </svg>
