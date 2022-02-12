@@ -11,3 +11,5 @@ has_children: true
 The donor watch is a Casio CA-53W
 
 <img src="/powerpic/docs/watchface.svg" width=400em>
+
+<img src="/powerpic/docs/programming-pinout.svg" width=400em>
