@@ -407,7 +407,7 @@
          id="tspan90376"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
          x="70.601364"
-         y="96.49247">1</tspan></text>
+         y="96.49247">5</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
@@ -417,10 +417,14 @@
          id="tspan98172-26"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
          x="80.556908"
-         y="96.484001">5</tspan><tspan
+         y="96.484001">1</tspan><tspan
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
          x="80.556908"
          y="98.247887"
+         id="tspan104525" /><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+         x="80.556908"
+         y="100.01178"
          id="tspan99998-10" /></text>
   </g>
 </svg>

@@ -16,10 +16,10 @@ The three needed ICSP pins have been broken out to provide a programming interfa
 
 <img src="/powerpic/docs/programming-pinout.svg" width=500em>
 
+1. **MCLR** - RG5
+1. **CLK** - RB6
+1. **DAT** - RB7
 1. **RX** - RC2
-2. **TX** - RC3
-3. **DAT** - RB7
-4. **CLK** - RB6
-5. **MCLR** - RG5
-6. **GND** (Middle Pad)
-7. **VIN** (Top Pad)
+1. **TX** - RC3
+1. **GND** (Middle Pad)
+1. **VIN** (Top Pad)
