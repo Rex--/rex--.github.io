@@ -5,9 +5,7 @@ parent: Hardware
 grand_parent: PowerP/C
 ---
 
-The PowerP/C LCD
-{: .fs-8 .fw-700}
-
+# PowerP/C LCD
 
 Segments (theoretically) available on the PowerPic ( WIP ) :
 
