@@ -7,4 +7,7 @@ has_children: true
 ---
 
 # PowerP/C Hardware
-This section will describe the hardware for the powerpic. It will include the various peripherials provided by the donor watch.
+
+The donor watch is a Casio CA-53W
+
+<img src="/powerpic/docs/watchface.svg" width=300em>
