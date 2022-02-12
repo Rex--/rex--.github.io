@@ -9,7 +9,7 @@ has_children: true
 # The PowerP/C
 
 A replacement board for the Casio CA-53W based on the PIC16.
-![board-front](/powerpic/docs/board-front-v1_0.png)
-![board-back](/powerpic/docs/board-back-v1_0.png)
+
+<img src="/powerpic/docs/watchface.svg" width=400em>
 
 Check out the project files in the [git repo](https://github.com/Rex--/powerpic)

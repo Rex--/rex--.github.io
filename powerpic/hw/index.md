@@ -8,6 +8,5 @@ has_children: true
 
 # PowerP/C Hardware
 
-The donor watch is a Casio CA-53W
-
-<img src="/powerpic/docs/watchface.svg" width=400em>
+<img src="/powerpic/docs/board-front-v1_0.png" width=250em>
+<img src="/powerpic/docs/board-back-v1_0.png" width=250em>
