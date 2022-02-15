@@ -8,9 +8,9 @@ permalink: /powerpic/fw
 # PowerP/C Firmware
 This page will describe the firmware for the powerpic. Firmware is defined as the software that runs on the actual PIC
 
-## Configuration Bits
+## Configuration Words
 
-**B-1: *Oscillators***
+**1: *Oscillators***
 
 bit 10: LCDPM: LCD Charge Pump Mode
 - 1 = Enables during LCD operation *Default*
@@ -23,7 +23,7 @@ bit 6-4: RSTOSC<2:0>: Power-up Default values for COSC bits (ReSeT OSCillator?)
 - 011 - HFINTOSC, OSCFREQ=4MHz, CDIV=1:1
 - 000 - HFINTOSC 2x PLL `HFFRQ=0b1111` 32MHz, CDIV=1:1
 
-**B-2: *Supervisors***
+**2: *Supervisors***
 
 bit 9: BORV: Brown-out Rest Voltage Selection Bit
 - 1 = Lower trip point *Default*
@@ -37,9 +37,13 @@ bit 7-6: BOREN<1:0>: Brown-out Reset Enable Bits
 
 bit 5: LPBOREN: Low-Power BOR Enable Bit
 
-**B-3: *Windowed Watchdog***
+**3: *Windowed Watchdog***
 
-*TODO*
+bit 6-5: WDTE<0:1>: Watchdog Operating Mode
+- 00 = WDT Disabled, SWDTEN is ignored
+- 01 = WDT enabled/disabled by SWDTEN bit in WDTCON0
+- 10 = WDT enabled while Sleep = 0, suspended when Sleep = 1; SWDTEN ignored
+- 11 = WDT enabled regardless of sleep, SWDTEN is ignored
 
 
 
@@ -56,18 +60,6 @@ Configure the clock source by programming the RSTOSC Configuration bits, or mani
 Select the frequency of the HFINTOSC with the HFFREQ<2:0> bits of the OSCFREQ register. The NDIV<3:0> bits of the OSCCON1 register allow for divison of the HFINTOSC from 1:1 to 1:512. Use the OSCTUNE register to tune the HFINTOSC.
 
 **Low Frequency Internal Oscillator (LFINTOSC)**
-
-
-## Memory
-
-**Program Memory:** [Memoy Size] - [Last Memory Address]
-- PIC16LF19195 - 8k words (14KB) - `0x1FFF`
-- PIC16LF19196 - 16k words (28KB) - `0x1FFF`
-- PIC16LF19197 - 32k words (56KB) - `0x7FFF`
-
-**Data Memory:**
-
-Data Memory is partitioned into 64 memory banks of 128 bytes each. Uses a 13-bit address.
 
 
 ## Interrupts
@@ -135,11 +127,11 @@ Each port has 10 standard registers:
 Port shortnames are R(x)(y) with x being the port number and y being the bit identifier. E.g. for PORTA 1 - RA1
 
 ## Peripheral Pin Select (PPS) Module
-Select piins for different Peripherals<br>
+Select piins for different Peripherals\
 *TODO*
 
 ## Peripheral Module Disable
-Provides the ability to disable unused modules for lower power consumption.<br>
+Provides the ability to disable unused modules for lower power consumption.\
 *TODO*
 
 
@@ -155,14 +147,15 @@ The USART uses the standard non-return-to-zero (NRZ) format. A Voh Mark state re
 
 The EUSART module will not remain active during sleep mode since it requires the system clock to operate.
 
-#### Transmitter
+**Transmitter**
 The heart of the transmitter is the serial Transmit Shift Register (TSR). The TSR obtains its data directly from the transmit buffer (TXxREG).
 
 To enable the transmitter in asynchronous mode configure these bits:
 - TXxSTA: TXEN = 1 - Enables transmitter circuitry
 - TXxSTA: SYNC = 0 - Configures EUSART for async mode
 - RCxSTA: SPEN = 1 - Automatically configures TX/CK as output. *Note: If the TX pin is shared with an analog peripheral, the analog function must be disabled*
-All other EUSART control bits are default values.<br>
+
+All other EUSART control bits are default values.\
 *Note: the TXxIF Transmitter interrupt flag is set when the TXEN bit is set.*
 
 A transmission is initiated by writing a character to the TXxREG. It is held there until all the data in the TSR has been flushed.

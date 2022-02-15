@@ -22,3 +22,5 @@ In the future I would like to migrate to the currently unmainted PIC16 branch of
 Flashing is expected to be done by an AVR-based programmer, but an arduino will suffice in the meantime. It will use Microchip's low voltage ICSP, which has been broken out into [test points](/powerpic/hw/testpoints.html) on the bottom of the powerpic board.
 
 Firmware for the arduino will need to be written to emulate PIC's ICSP serial interface. Some software running on the PC will be useful to communicate the hex file for programming to the arduino.
+
+The software on the computer that communicates with the programmer device will be called `picchick` in reference to `avrdude`
