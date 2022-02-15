@@ -31,6 +31,7 @@ PFM is writting one row at a time. Multiple Load Data ICSP commands are used to 
 PFM panels include a 64-word (1 row) programming interface. The row to be programmed must first be erased, either with a Row Erase or Bulk Erase command. To modfy only a a portion of a previously programmed row, the contents of the entire row must first be read, then the new data and the retained data can be written into the write latches to reprogram the row of PFM.
 
 Checkout the [Memory](/powerpic/fw/memory.html) page for addressess.
+
 ***
 
 ### Programming algorithm
