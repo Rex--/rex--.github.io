@@ -36,7 +36,18 @@ grand_parent: PowerP/C
 Configuration words are 14-bits in length and contain configuration for the PIC prior to startup.
 
 **Program Flash Memory:**\
-*TODO*
+*The datasheet shows that the PIC16LF19196 has memory availble from address 0x0000 to 0x3FFF which is a total of 16,383 memory addresses. I can't seem to find any information on these extra addresses, do they just round to 16k words? To be determined..*
+
+Program flash memory is divided and subdivided into chunks, with the smallest being a:
+
+**Word** - 14 bits, holds an instruction and the needed arguments. Each word is referenced with a 15-bit address.\
+64 words combine to form a:
+
+**Row** - 64 words. the smallest chunk of memory you can write. Writes cannot cross row boundaries.\
+32 Rows combine to form a:
+
+**Page** - Pages are the largest chunk, holding 2048 words.
+
 
 **Data Memory (RAM):**\
 Data Memory is partitioned into 64 memory banks of 128 bytes each. Uses a 13-bit address.

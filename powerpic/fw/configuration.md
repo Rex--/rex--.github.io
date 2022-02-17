@@ -15,38 +15,38 @@ Configuratione for the PIC is done in two ways:
 
 **Configuration Word 1: *Oscillators***
 
-bit 10: LCDPM: LCD Charge Pump Mode
-- 1 = Enables during LCD operation *Default*
-- 0 = Forced off 
+* bit 10: LCDPM: LCD Charge Pump Mode
+    - 1 = Enables during LCD operation *Default*
+    - 0 = Forced off 
 
-bit 6-4: RSTOSC<2:0>: Power-up Default values for COSC bits (ReSeT OSCillator?)
-- 111 - External Oscillator *Default*
-- 110 - HFINTOSC, `HFFRQ=0b0000`4MHz, CDIV=4:1
-- 101 - LFINTOSC
-- 011 - HFINTOSC, OSCFREQ=4MHz, CDIV=1:1
-- 000 - HFINTOSC 2x PLL `HFFRQ=0b1111` 32MHz, CDIV=1:1
+* bit 6-4: RSTOSC<2:0>: Power-up Default values for COSC bits (ReSeT OSCillator?)
+    - 111 - External Oscillator *Default*
+    - 110 - HFINTOSC, `HFFRQ=0b0000`4MHz, CDIV=4:1
+    - 101 - LFINTOSC
+    - 011 - HFINTOSC, OSCFREQ=4MHz, CDIV=1:1
+    - 000 - HFINTOSC 2x PLL `HFFRQ=0b1111` 32MHz, CDIV=1:1
 
 **Configuration Word 2: *Supervisors***
 
-bit 9: BORV: Brown-out Rest Voltage Selection Bit
-- 1 = Lower trip point *Default*
-- 0 = Higher trip point *Note: Higher trip is recommend for  >16MHz
+* bit 9: BORV: Brown-out Rest Voltage Selection Bit
+    - 1 = Lower trip point *Default*
+    - 0 = Higher trip point *Note: Higher trip is recommend for  >16MHz
 
-bit 7-6: BOREN<1:0>: Brown-out Reset Enable Bits
-- 11 = Enabled, SBOREN is ignored
-- 10 = Enabled while running, Disabled in sleep, SBOREN is ignored
-- 01 = Enabled according to SBOREN
-- 00 = Disabled
+* bit 7-6: BOREN<1:0>: Brown-out Reset Enable Bits
+    - 11 = Enabled, SBOREN is ignored
+    - 10 = Enabled while running, Disabled in sleep, SBOREN is ignored
+    - 01 = Enabled according to SBOREN
+    - 00 = Disabled
 
-bit 5: LPBOREN: Low-Power BOR Enable Bit
+* bit 5: LPBOREN: Low-Power BOR Enable Bit
 
 **Configuration Word 3: *Windowed Watchdog***
 
-bit 6-5: WDTE<0:1>: Watchdog Operating Mode
-- 00 = WDT Disabled, SWDTEN is ignored
-- 01 = WDT enabled/disabled by SWDTEN bit in WDTCON0
-- 10 = WDT enabled while Sleep = 0, suspended when Sleep = 1; SWDTEN ignored
-- 11 = WDT enabled regardless of sleep, SWDTEN is ignored
+* bit 6-5: WDTE<0:1>: Watchdog Operating Mode
+    - 00 = WDT Disabled, SWDTEN is ignored
+    - 01 = WDT enabled/disabled by SWDTEN bit in WDTCON0
+    - 10 = WDT enabled while Sleep = 0, suspended when Sleep = 1; SWDTEN ignored
+    - 11 = WDT enabled regardless of sleep, SWDTEN is ignored
 
 ***
 
