@@ -28,7 +28,8 @@ Five connections are needed for ICSP programming:
 
 I will be using the low voltage In-Ciruit Serial Programming (ICSP) Interface to program the Nonvolatile memory (NVM). This includes the Program Flash Memory (PFM), EEPROM, dedicated "User ID" locations and the Configuration Words.
 
-**ICSP Commands**\
+**ICSP Commands**
+
 | Command | Byte Code | Payload Expected |
 |:------------|:-----------:|:--------------------:|
 | Load Address | 0x80 | Yes |
