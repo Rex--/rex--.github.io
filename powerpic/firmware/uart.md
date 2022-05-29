@@ -1,7 +1,8 @@
 ---
-title: Configuration
-parent: Firmware
+title: UART
+# parent: Firmware
 grand_parent: PowerPIC
+nav_exclude: true
 ---
 
 # UART

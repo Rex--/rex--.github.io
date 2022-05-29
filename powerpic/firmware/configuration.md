@@ -1,7 +1,8 @@
 ---
 title: Configuration
-parent: Firmware
+# parent: Firmware
 grand_parent: PowerPIC
+nav_exclude: true
 ---
 
 # Configuration of the PIC
