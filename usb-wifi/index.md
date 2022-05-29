@@ -2,7 +2,7 @@
 layout: default
 title: USB Wifi Stick
 parent: Projects
-permalink: /usb-wifi
+nav_exclude: true
 ---
 
 # USB Wi-fi Stick

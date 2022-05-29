@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Rex's Exploits
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-source: rexploits/
+source: .
 ga_tracking: G-NFGP2ZNWNX
 
 # Contact Info
@@ -35,6 +35,7 @@ twitter: "@rexploits"
 
 # Theme Settings
 search_enabled: false
+heading_anchors: false
 
 footer_content: "Rex McKinnon &copy; 2022"
 

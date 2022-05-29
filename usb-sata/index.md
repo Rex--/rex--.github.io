@@ -2,7 +2,7 @@
 layout: default
 title: USB SATA Stick
 parent: Projects
-permalink: /usb-sata
+nav_exclude: true
 ---
 
 # USB SATA Stick

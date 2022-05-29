@@ -2,7 +2,8 @@
 layout: default
 title: A13 Based Linux SBC
 parent: Projects
-permalink: /sweet-potato-pi
+nav_exclude: true
+# permalink: /sweet-potato-pi
 ---
 
 ### Features:
